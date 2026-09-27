@@ -9,7 +9,7 @@ build step: i file sono serviti direttamente.
     public/                      radice pubblicata da Cloudflare Pages
       index.html                 Home (pagina originale, snapshot 29/04/2024)
       <slug>/index.html          36 pagine interne (stesso scheletro del tema)
-      news/                      (elenco news, agli URL originali dei post)
+      category/news/             archivio news (URL originale del sito)
       wp-content/themes/flexform CSS e JS del tema originale
       wp-content/plugins/        CSS/JS dei plugin (revslider, cforms2, cookie-law, cf7)
       wp-content/uploads/        immagini, brochure e PDF
@@ -74,6 +74,7 @@ precompilato: **nessuna richiesta viene persa**.
 - Per verificare in locale: `npm run dev` (oppure `python3 -m http.server -d public`).
 
 ## Note
+- L'archivio news e' su `/category/news/`, come nel sito WordPress originale.
 
 - La home è la pagina WordPress originale archiviata il 29/04/2024.
 - Le pagine interne riproducono il medesimo scheletro del tema Flexform con i

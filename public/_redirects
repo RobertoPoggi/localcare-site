@@ -1,6 +1,5 @@
 # URL storici da preservare
 /home/            /                301
 /home             /                301
-/category/news/   /                301
 /wp-login.php     /                301
 /xmlrpc.php       /                410
