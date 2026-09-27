@@ -1,0 +1,13 @@
+{
+  "name": "localcare-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sito statico www.localcare.it — clone fedele di WordPress su Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name localcare-site"
+  },
+  "devDependencies": {
+    "wrangler": "^4.119.0"
+  }
+}
