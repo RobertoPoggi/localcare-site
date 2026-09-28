@@ -469,17 +469,20 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<!--// CLOSE HEAD //-->
 	<style id="lc-carousel-fix">
 .wpb_posts_carousel_widget .carousel-wrap{overflow:visible !important;height:auto !important;}
+.wpb_posts_carousel_widget .carousel-wrap .es-carousel,
+.wpb_posts_carousel_widget .carousel-wrap ul{overflow:visible !important;height:auto !important;position:static !important;}
 .wpb_posts_carousel_widget .carousel-wrap .blog-items.carousel-items{
  display:flex !important;flex-wrap:wrap !important;position:static !important;
- height:auto !important;transform:none !important;left:auto !important;opacity:1 !important;}
+ height:auto !important;width:auto !important;transform:none !important;left:auto !important;opacity:1 !important;}
+.wpb_posts_carousel_widget .carousel-wrap .blog-items.carousel-items > li,
 .wpb_posts_carousel_widget .carousel-wrap .blog-items.carousel-items > .carousel-item{
  display:block !important;float:none !important;position:relative !important;left:auto !important;
  opacity:1 !important;visibility:visible !important;transform:none !important;
- width:31.3% !important;margin:0 2% 20px 0 !important;min-height:0 !important;height:auto !important;}
+ width:31.3% !important;margin:0 2% 22px 0 !important;min-height:0 !important;height:auto !important;}
 .wpb_posts_carousel_widget .carousel-nav,
-.wpb_posts_carousel_widget .es-nav,
-.wpb_posts_carousel_widget .carousel-wrap > .es-carousel{display:none !important;}
+.wpb_posts_carousel_widget .es-nav{display:none !important;}
 @media(max-width:800px){
+ .wpb_posts_carousel_widget .carousel-wrap .blog-items.carousel-items > li,
  .wpb_posts_carousel_widget .carousel-wrap .blog-items.carousel-items > .carousel-item{width:100% !important;margin-right:0 !important;}}
 </style>
 </head>
